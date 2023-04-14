@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brrrgrrr: Online burger selling website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar" id="navbar">
+      <a href="#">
+        <div class="logoDiv">
+          <img src="images/Logo.png" alt="Logo" />
+          <p>Brrrgrrr</p>
+        </div>
+      </a>
+
+      <div class="navLinks">
+        <a href="#" class="homeBtn">Home</a>
+        <a href="build.html" class="buildBtn">Build your burger</a>
+        <div class="cartBtnDiv">
+          <i class="bi bi-cart3" id="cartBtn"></i>
+          <p id="cartCount">0</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="titleSection">
+      <h2>Get the best <span>burger</span> you can have!</h2>
+      <p>Create and Customize your own burger</p>
+    </div>
+
+    <div class="searchBar">
+      <input type="text" placeholder="Search for a burger" id="searchInput" />
+    </div>
+    <div class="containerBox">
+      <div class="itemContainer"></div>
+
+      <div class="cartSection">
+        <div class="cartHeader">
+          <p>Your Cart</p>
+          <i class="bi bi-x cartCloseBtn"></i>
+        </div>
+        <div class="cartItemContainer">
+          <p class="emptycartP">Your cart is empty!</p>
+          <!-- <div class="cartItem">
+            <div class="cartImageDetails">
+              <div class="cartImageDiv">
+                <img src="/images/Cheeseburger.jpg" alt="" />
+              </div>
+              <div class="cartItemDetails">
+                <p class="cartItemName">Onion Burger</p>
+                <p class="cartItemPrice">120 Rs</p>
+              </div>
+            </div>
+            <i class="bi bi-dash-circle removeBtn"></i>
+          </div> -->
+        </div>
+        <div class="cartFooter">
+          <div class="cartTotal">
+            <p>Total:</p>
+            <p id="totalAmnt">0 Rs</p>
+          </div>
+          <div class="cartBuy"><p>BUY NOW</p></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="#">
+        <div class="logoDiv">
+          <img src="images/Logo.png" alt="Logo" />
+          <p>Brrrgrrr</p>
+        </div>
+      </a>
+
+      <p>Copyright@2023 Brrrgrrr</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
